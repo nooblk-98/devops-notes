@@ -15,14 +15,15 @@ A comprehensive knowledge base for DevOps engineers covering infrastructure, CI/
 
 | Category | Description |
 |----------|-------------|
-| CI/CD Pipelines | Git workflow, auto release, CI/CD pipelines, release management |
+| AI | Auto release with AI-generated notes, AI coding skills |
+| CI/CD Pipelines | Git workflow, CI/CD pipelines, release management |
 | Installation Guides | Step-by-step software installation (Certbot, Docker, CloudPanel, aaPanel, Jenkins, Node.js) |
 | Server Setup & Provisioning | Server initialization, control panels, system config |
 | Web Server & Performance | Nginx, PHP, caching, DNS, SSL |
 | Database | MySQL, MariaDB, PostgreSQL, Redis, Memcached |
 | Monitoring & Benchmarking | Prometheus, Grafana, Netdata, benchmarking |
 | Docker | Container maintenance, Compose, staging |
-| DevOps Tools & Automation | Git, CI/CD, WP-CLI, SSH, Ansible |
+| DevOps Tools & Automation | WP-CLI, SSH, Ansible |
 | Security | Hardening, firewalls, malware, WAF |
 | Frontend & Deployment | WordPress, Laravel, Next.js, static sites |
 | Backup & Disaster Recovery | Backup procedures, DR planning |

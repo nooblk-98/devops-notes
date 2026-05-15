@@ -23,7 +23,8 @@ The documentation is organized by topic rather than document type, making it eas
 
 | Category | Contents |
 |----------|----------|
-| **CI/CD Pipelines** | Git workflow, auto release, CI/CD pipelines, release management |
+| **AI** | Auto release with AI-generated notes, AI coding skills |
+| **CI/CD Pipelines** | Git workflow, CI/CD pipelines, release management |
 | **Installation Guides** | Certbot/SSL, Docker Engine, CloudPanel, aaPanel, Jenkins, Node.js |
 | **Server Setup & Provisioning** | Server hardening, patch management, migrations, swap config, file permissions |
 | **Web Server & Performance** | Nginx tuning, PHP-FPM optimization, Cloudflare caching, log management, SSL troubleshooting, DNS management |
