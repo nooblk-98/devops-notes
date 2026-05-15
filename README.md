@@ -3,7 +3,7 @@
 
   # DevOps Reference Documentation
 
-  A global reference for DevOps engineers — SOPs, runbooks, and practical guides.
+  A global knowledge base for DevOps engineers — operations, runbooks, and practical guides.
 
   [![MkDocs](https://img.shields.io/badge/MkDocs-1.6-06c6a6?style=flat-square)](https://www.mkdocs.org/)
   [![License](https://img.shields.io/badge/License-Proprietary-red?style=flat-square)](LICENSE)
@@ -14,20 +14,20 @@
 
 ## Overview
 
-A comprehensive open reference for DevOps engineers worldwide. Contains runbooks, standard operating procedures, and practical guides covering the full DevOps lifecycle — from server provisioning and CI/CD to monitoring, security, and incident response.
+A comprehensive open knowledge base for DevOps engineers worldwide. Contains runbooks, operations documentation, and practical guides covering the full DevOps lifecycle — from server provisioning and CI/CD to monitoring, security, and incident response.
 
 The site is built with [MkDocs](https://www.mkdocs.org/), uses the [ReadTheDocs](https://github.com/cjsheets/mkdocs-rtd-dropdown) theme, and is published on [Cloudflare Pages](https://pages.cloudflare.com/). Every page shows its last revision date, code blocks have one-click copy, and images open in a lightbox.
 
 ### What you'll find here
 
-**Standard Operating Procedures** — Formal, versioned procedures for recurring tasks. Each SOP follows a consistent template: purpose, scope, prerequisites, step-by-step instructions, rollback steps, and verification checks.
+**Operations** — Reference documentation for common infrastructure tasks and procedures. Each document covers purpose, prerequisites, step-by-step instructions, rollback steps, and verification checks.
 
-| Area | SOPs |
-|------|------|
+| Area | Documents |
+|------|-----------|
 | Infrastructure | Backup & Recovery, Monitoring, DNS, Patch Management, Disaster Recovery |
 | CI/CD & Development | Git Workflow, CI/CD Pipeline, CI/CD Multi-Environment, Release Management |
 | Application Deployment | WordPress, Domain Change, Laravel, Python/WSGI |
-| Operations | Server Migration, Incident Postmortem |
+| Procedures | Server Migration, Incident Postmortem |
 
 **Guides** — Hands-on guides organized by category:
 
@@ -78,7 +78,7 @@ Output goes to the `site/` directory, ready for deployment.
 .
 ├── docs/                    # Markdown source files
 │   ├── index.md             # Home page
-│   ├── sops/                # Standard Operating Procedures
+│   ├── sops/                # Operations documentation
 │   ├── guides/              # Step-by-step guides
 │   ├── img/                 # Images and assets
 │   ├── css/                 # Custom styles (task lists, copy button)

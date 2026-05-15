@@ -6,7 +6,7 @@ tags:
   - code-review
 ---
 
-# Git Workflow SOP
+# Git Workflow
 
 **Version:** 1.0  
 **Owner:** DevOps Team

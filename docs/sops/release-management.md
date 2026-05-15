@@ -1,4 +1,4 @@
-# Release Management SOP
+# Release Management
 
 **Version:** 1.0  
 **Owner:** DevOps Team

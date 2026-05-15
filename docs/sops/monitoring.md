@@ -5,7 +5,7 @@ tags:
   - observability
 ---
 
-# Monitoring SOP
+# Monitoring
 
 **Version:** 1.0  
 **Last Updated:** 2024-01-01  

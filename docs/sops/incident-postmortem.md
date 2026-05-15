@@ -1,4 +1,4 @@
-# Incident Postmortem SOP
+# Incident Postmortem
 
 **Version:** 1.0  
 **Owner:** DevOps Team

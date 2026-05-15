@@ -5,7 +5,7 @@ tags:
   - domain
 ---
 
-# DNS Management SOP
+# DNS Management
 
 **Version:** 1.0  
 **Owner:** DevOps Team

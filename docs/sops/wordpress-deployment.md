@@ -7,7 +7,7 @@ tags:
   - deployment
 ---
 
-# WordPress Deployment SOP (Docker)
+# WordPress Deployment
 
 **Version:** 1.0  
 **Last Updated:** 2024-01-01  

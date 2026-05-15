@@ -6,7 +6,7 @@ tags:
   - url
 ---
 
-# WordPress Domain Change SOP
+# WordPress Domain Change
 
 **Version:** 1.0  
 **Last Updated:** 2024-01-01  

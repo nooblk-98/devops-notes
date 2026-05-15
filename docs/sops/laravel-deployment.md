@@ -1,4 +1,4 @@
-# Laravel Deployment SOP
+# Laravel Deployment
 
 **Version:** 1.0  
 **Owner:** DevOps Team

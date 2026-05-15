@@ -5,7 +5,7 @@ tags:
   - database-migration
 ---
 
-# Server & Site Migration SOP
+# Server & Site Migration
 
 **Version:** 1.0  
 **Owner:** DevOps Team

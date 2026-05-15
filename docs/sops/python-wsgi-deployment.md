@@ -1,4 +1,4 @@
-# Python / WSGI Deployment SOP
+# Python / WSGI Deployment
 
 ## Architecture
 

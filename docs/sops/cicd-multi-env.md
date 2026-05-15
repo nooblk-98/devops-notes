@@ -1,4 +1,4 @@
-# CI/CD for Multiple Environments SOP
+# CI/CD for Multiple Environments
 
 **Version:** 1.0  
 **Owner:** DevOps Team

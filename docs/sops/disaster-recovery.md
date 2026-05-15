@@ -1,4 +1,4 @@
-# Disaster Recovery SOP
+# Disaster Recovery
 
 **Version:** 1.0  
 **Owner:** DevOps Team

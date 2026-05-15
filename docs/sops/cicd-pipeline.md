@@ -5,7 +5,7 @@ tags:
   - automation
 ---
 
-# CI/CD Pipeline SOP
+# CI/CD Pipeline
 
 **Version:** 1.0  
 **Owner:** DevOps Team

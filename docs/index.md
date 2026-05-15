@@ -15,6 +15,6 @@ A comprehensive collection of Standard Operating Procedures, runbooks, and pract
 
 | Section | Description |
 |---------|-------------|
-| **SOPs** | Standard Operating Procedures for recurring operations |
+| **Operations** | Reference documentation for common operations and procedures |
 | **Guides** | Step-by-step practical guides and tutorials |
 

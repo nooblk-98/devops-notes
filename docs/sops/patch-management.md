@@ -1,4 +1,4 @@
-# Patch Management SOP
+# Patch Management
 
 **Version:** 1.0  
 **Owner:** DevOps Team

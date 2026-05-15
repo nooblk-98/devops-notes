@@ -1,5 +1,5 @@
 site_name: DevOps Reference
-site_description: A comprehensive reference for DevOps engineers — SOPs, runbooks, and practical guides
+site_description: A comprehensive knowledge base for DevOps engineers — operations, runbooks, and practical guides
 site_url: https://wl-devops-docs.pages.dev
 
 theme:
@@ -45,27 +45,27 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Standard Operating Procedures:
+  - Operations:
       - Overview: sops/index.md
       - Infrastructure:
-          - Backup & Recovery SOP: sops/backup.md
-          - Monitoring SOP: sops/monitoring.md
-          - DNS Management SOP: sops/dns-management.md
-          - Patch Management SOP: sops/patch-management.md
-          - Disaster Recovery SOP: sops/disaster-recovery.md
+          - Backup & Recovery: sops/backup.md
+          - Monitoring: sops/monitoring.md
+          - DNS Management: sops/dns-management.md
+          - Patch Management: sops/patch-management.md
+          - Disaster Recovery: sops/disaster-recovery.md
       - CI/CD & Development:
-          - Git Workflow SOP: sops/git-workflow.md
-          - CI/CD Pipeline SOP: sops/cicd-pipeline.md
-          - CI/CD Multi-Environment SOP: sops/cicd-multi-env.md
-          - Release Management SOP: sops/release-management.md
+          - Git Workflow: sops/git-workflow.md
+          - CI/CD Pipeline: sops/cicd-pipeline.md
+          - CI/CD Multi-Environment: sops/cicd-multi-env.md
+          - Release Management: sops/release-management.md
       - Application Deployment:
-          - WordPress Deployment SOP: sops/wordpress-deployment.md
-          - WordPress Domain Change SOP: sops/wordpress-change-url.md
-          - Laravel Deployment SOP: sops/laravel-deployment.md
-          - Python/WSGI Deployment SOP: sops/python-wsgi-deployment.md
-      - Operations:
-          - Server Migration SOP: sops/migration.md
-          - Incident Postmortem SOP: sops/incident-postmortem.md
+          - WordPress Deployment: sops/wordpress-deployment.md
+          - WordPress Domain Change: sops/wordpress-change-url.md
+          - Laravel Deployment: sops/laravel-deployment.md
+          - Python/WSGI Deployment: sops/python-wsgi-deployment.md
+      - Procedures:
+          - Server Migration: sops/migration.md
+          - Incident Postmortem: sops/incident-postmortem.md
   - Guides:
       - Overview: guides/index.md
       - Server Setup & Provisioning:
