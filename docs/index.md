@@ -15,6 +15,7 @@ A comprehensive knowledge base for DevOps engineers covering infrastructure, CI/
 
 | Category | Description |
 |----------|-------------|
+| Installation Guides | Step-by-step software installation (Certbot, Docker, CloudPanel, aaPanel, Jenkins, Node.js) |
 | Server Setup & Provisioning | Server initialization, control panels, system config |
 | Web Server & Performance | Nginx, PHP, caching, DNS, SSL |
 | Database | MySQL, MariaDB, PostgreSQL, Redis, Memcached |

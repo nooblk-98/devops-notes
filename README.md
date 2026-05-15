@@ -23,7 +23,8 @@ The documentation is organized by topic rather than document type, making it eas
 
 | Category | Contents |
 |----------|----------|
-| **Server Setup & Provisioning** | Initial server hardening, control panels (CloudPanel, aaPanel), Docker Engine, Certbot/SSL, swap config, file permissions, patch management, server migrations |
+| **Installation Guides** | Certbot/SSL, Docker Engine, CloudPanel, aaPanel, Jenkins, Node.js |
+| **Server Setup & Provisioning** | Server hardening, patch management, migrations, swap config, file permissions |
 | **Web Server & Performance** | Nginx tuning, PHP-FPM optimization, Cloudflare caching, log management, SSL troubleshooting, DNS management |
 | **Database** | MySQL/MariaDB/PostgreSQL administration, database migrations, Redis and Memcached setup |
 | **Monitoring & Benchmarking** | Prometheus + Grafana stack, Netdata real-time monitoring, server benchmarking tools |

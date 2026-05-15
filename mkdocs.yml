@@ -49,10 +49,6 @@ nav:
       - Server Provisioning: guides/server-provisioning.md
       - Patch Management: sops/patch-management.md
       - Server Migration: sops/migration.md
-      - Install Certbot & SSL: guides/install-certbot.md
-      - Install Docker & Compose: guides/install-docker.md
-      - Install CloudPanel: guides/install-cloudpanel.md
-      - Install aaPanel: guides/install-aapanel.md
       - Swap Configuration: guides/swap-configuration.md
       - File Permissions Cheat Sheet: guides/file-permissions.md
   - Web Server & Performance:
@@ -62,6 +58,13 @@ nav:
       - Log Management: guides/log-management.md
       - SSL Troubleshooting: guides/ssl-troubleshooting.md
       - DNS Management: sops/dns-management.md
+  - Installation Guides:
+      - Install Certbot & SSL: guides/install-certbot.md
+      - Install Docker & Compose: guides/install-docker.md
+      - Install CloudPanel: guides/install-cloudpanel.md
+      - Install aaPanel: guides/install-aapanel.md
+      - Jenkins Installation: guides/jenkins-installation.md
+      - Node.js Installation: guides/nodejs-installation.md
   - Database:
       - Database Management: guides/database-management.md
       - Database Migration: guides/database-migration.md
@@ -84,8 +87,6 @@ nav:
       - SSH Key Management: guides/ssh-key-management.md
       - SSH Tunneling: guides/ssh-tunneling.md
       - Cron Job Management: guides/cron-management.md
-      - Jenkins Installation: guides/jenkins-installation.md
-      - Node.js Installation: guides/nodejs-installation.md
       - Ansible Automation: guides/ansible-automation.md
   - Security:
       - Security Practices: guides/security-practices.md

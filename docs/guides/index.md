@@ -1,13 +1,17 @@
 # All Documentation
 
-## Server Setup & Provisioning
-- [Server Provisioning](server-provisioning.md) — Initial server setup and hardening
-- [Patch Management](../sops/patch-management.md) — Scheduled updates, kernel upgrades, reboot cycles
-- [Server Migration](../sops/migration.md) — Full server and site migration process
+## Installation Guides
 - [Install Certbot & SSL](install-certbot.md) — Install Certbot and obtain SSL certificates
 - [Install Docker & Compose](install-docker.md) — Install Docker Engine and Compose plugin
 - [Install CloudPanel](install-cloudpanel.md) — Install CloudPanel control panel
 - [Install aaPanel](install-aapanel.md) — Install aaPanel control panel
+- [Jenkins Installation](jenkins-installation.md) — Jenkins server setup (Docker + manual)
+- [Node.js Installation](nodejs-installation.md) — Node.js runtime setup (Docker + manual)
+
+## Server Setup & Provisioning
+- [Server Provisioning](server-provisioning.md) — Initial server setup and hardening
+- [Patch Management](../sops/patch-management.md) — Scheduled updates, kernel upgrades, reboot cycles
+- [Server Migration](../sops/migration.md) — Full server and site migration process
 - [Swap Configuration](swap-configuration.md) — When and how to add swap
 - [File Permissions Cheat Sheet](file-permissions.md) — Standard ownership for web apps
 
