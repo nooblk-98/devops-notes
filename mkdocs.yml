@@ -84,6 +84,8 @@ nav:
       - SSH Key Management: guides/ssh-key-management.md
       - SSH Tunneling: guides/ssh-tunneling.md
       - Cron Job Management: guides/cron-management.md
+      - Jenkins Installation: guides/jenkins-installation.md
+      - Node.js Installation: guides/nodejs-installation.md
       - Ansible Automation: guides/ansible-automation.md
   - Security:
       - Security Practices: guides/security-practices.md

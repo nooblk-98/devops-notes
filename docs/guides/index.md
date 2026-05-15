@@ -44,6 +44,8 @@
 - [SSH Key Management](ssh-key-management.md) — Generate, deploy, rotate keys
 - [SSH Tunneling](ssh-tunneling.md) — Port forwarding, jump hosts, reverse tunnels
 - [Cron Job Management](cron-management.md) — Scheduling, monitoring, common crons
+- [Jenkins Installation](jenkins-installation.md) — Jenkins server setup (Docker + manual)
+- [Node.js Installation](nodejs-installation.md) — Node.js runtime setup (Docker + manual)
 - [Ansible Automation](ansible-automation.md) — Server provisioning with Ansible playbooks
 
 ## Security
