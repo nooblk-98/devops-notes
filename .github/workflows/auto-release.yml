@@ -1,0 +1,33 @@
+name: Auto Release
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Delete old release if exists
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
+        run: |
+          gh release delete "v0.1.${{ github.run_number }}" --yes || true
+          git push --delete origin "v0.1.${{ github.run_number }}" || true
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release create "v0.1.${{ github.run_number }}" \
+            --target "${{ github.sha }}" \
+            --generate-notes \
+            --title "Release v0.1.${{ github.run_number }}"
