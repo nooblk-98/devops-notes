@@ -111,8 +111,6 @@ nav:
   - AI:
       - Auto Release: guides/auto-release.md
       - Better AI Skills: guides/better-ai-skills.md
-  - All Docs: guides/index.md
-
 copyright: Copyright &copy; 2026 <a href="https://github.com/nooblk-98">NoobLK</a>
 
 strict: true
