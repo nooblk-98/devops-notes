@@ -23,13 +23,14 @@ The documentation is organized by topic rather than document type, making it eas
 
 | Category | Contents |
 |----------|----------|
+| **CI/CD Pipelines** | Git workflow, auto release, CI/CD pipelines, release management |
 | **Installation Guides** | Certbot/SSL, Docker Engine, CloudPanel, aaPanel, Jenkins, Node.js |
 | **Server Setup & Provisioning** | Server hardening, patch management, migrations, swap config, file permissions |
 | **Web Server & Performance** | Nginx tuning, PHP-FPM optimization, Cloudflare caching, log management, SSL troubleshooting, DNS management |
 | **Database** | MySQL/MariaDB/PostgreSQL administration, database migrations, Redis and Memcached setup |
 | **Monitoring & Benchmarking** | Prometheus + Grafana stack, Netdata real-time monitoring, server benchmarking tools |
 | **Docker** | Container maintenance, Docker Compose patterns, staging environment replication |
-| **DevOps Tools & Automation** | Git workflow, CI/CD pipelines (single + multi-environment), release management, WP-CLI, SSH key management, tunneling, cron jobs, Ansible playbooks |
+| **DevOps Tools & Automation** | WP-CLI, SSH key management, tunneling, cron jobs, Ansible playbooks |
 | **Security** | Hardening checklists, WordPress firewall rules, malware removal, .htaccess hardening, ModSecurity WAF, AWS WAF, incident postmortems |
 | **Frontend & Deployment** | WordPress (Docker/Nginx/MariaDB), Laravel, Python/WSGI, Next.js + headless WordPress, Node.js/PM2, static site deployment |
 | **Backup & Disaster Recovery** | Backup schedules and retention, DR planning with RTO/RPO |

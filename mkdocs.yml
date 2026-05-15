@@ -78,12 +78,13 @@ nav:
       - Docker Maintenance: guides/docker-maintenance.md
       - Docker Compose Cheat Sheet: guides/docker-compose-cheatsheet.md
       - Staging Environment Setup: guides/staging-environment.md
-  - DevOps Tools & Automation:
+  - CI/CD Pipelines:
       - Git Workflow: sops/git-workflow.md
       - Auto Release: guides/auto-release.md
       - CI/CD Pipeline: sops/cicd-pipeline.md
       - CI/CD Multi-Environment: sops/cicd-multi-env.md
       - Release Management: sops/release-management.md
+  - DevOps Tools & Automation:
       - WP-CLI Cheat Sheet: guides/wp-cli-cheatsheet.md
       - SSH Key Management: guides/ssh-key-management.md
       - SSH Tunneling: guides/ssh-tunneling.md

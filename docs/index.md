@@ -15,6 +15,7 @@ A comprehensive knowledge base for DevOps engineers covering infrastructure, CI/
 
 | Category | Description |
 |----------|-------------|
+| CI/CD Pipelines | Git workflow, auto release, CI/CD pipelines, release management |
 | Installation Guides | Step-by-step software installation (Certbot, Docker, CloudPanel, aaPanel, Jenkins, Node.js) |
 | Server Setup & Provisioning | Server initialization, control panels, system config |
 | Web Server & Performance | Nginx, PHP, caching, DNS, SSL |

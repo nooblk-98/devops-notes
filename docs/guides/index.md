@@ -39,12 +39,14 @@
 - [Docker Compose Cheat Sheet](docker-compose-cheatsheet.md) — Compose commands, healthchecks, networking
 - [Staging Environment Setup](staging-environment.md) — Cloning production to staging
 
-## DevOps Tools & Automation
+## CI/CD Pipelines
 - [Git Workflow](../sops/git-workflow.md) — Branching, commits, code review process
 - [Auto Release](auto-release.md) — Automatic releases with AI-generated notes
 - [CI/CD Pipeline](../sops/cicd-pipeline.md) — Automated testing and deployment pipelines
 - [CI/CD Multi-Environment](../sops/cicd-multi-env.md) — Dev/staging/prod deployment strategy
 - [Release Management](../sops/release-management.md) — Versioning, changelogs, release notes
+
+## DevOps Tools & Automation
 - [WP-CLI Cheat Sheet](wp-cli-cheatsheet.md) — Common wp-cli commands reference
 - [SSH Key Management](ssh-key-management.md) — Generate, deploy, rotate keys
 - [SSH Tunneling](ssh-tunneling.md) — Port forwarding, jump hosts, reverse tunnels
