@@ -1,105 +1,104 @@
 <div align="center">
-  <img src="docs/img/logo.webp" alt="DevOps Docs" width="96" />
+  <img src="docs/img/logo.webp" alt="DevOps Reference" width="96" />
 
   # DevOps Reference Documentation
 
-  A global knowledge base for DevOps engineers — operations, runbooks, and practical guides.
+  A comprehensive knowledge base for DevOps engineers — operations runbooks, configuration guides, and deployment procedures.
 
-  [![MkDocs](https://img.shields.io/badge/MkDocs-1.6-06c6a6?style=flat-square)](https://www.mkdocs.org/)
+  [![MkDocs](https://img.shields.io/badge/MkDocs-1.6-06c6a6?style=flat-square&logo=markdown)](https://www.mkdocs.org/)
+  [![Build](https://img.shields.io/badge/Build-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions)](https://github.com/features/actions)
   [![License](https://img.shields.io/badge/License-Proprietary-red?style=flat-square)](LICENSE)
 
-  [Overview](#overview) • [Quick Start](#quick-start) • [Project Structure](#project-structure) • [Deployment](#deployment)
+  [Overview](#overview) • [Categories](#categories) • [Quick Start](#quick-start) • [Project Structure](#project-structure) • [Technology](#technology)
 
 </div>
 
 ## Overview
 
-A comprehensive open knowledge base for DevOps engineers worldwide. Contains runbooks, operations documentation, and practical guides covering the full DevOps lifecycle — from server provisioning and CI/CD to monitoring, security, and incident response.
+This repository is a curated collection of practical DevOps knowledge covering the full infrastructure lifecycle. It includes runbooks, standard procedures, and step-by-step guides for everything from bare-metal server provisioning to Kubernetes deployment, CI/CD pipeline management, monitoring, security hardening, and disaster recovery.
 
-The site is built with [MkDocs](https://www.mkdocs.org/), uses the [ReadTheDocs](https://github.com/cjsheets/mkdocs-rtd-dropdown) theme, and is published on [Cloudflare Pages](https://pages.cloudflare.com/). Every page shows its last revision date, code blocks have one-click copy, and images open in a lightbox.
+The documentation is organized by topic rather than document type, making it easy to find relevant information regardless of whether you're looking for a formal procedure or a quick reference.
 
-### What you'll find here
+## Categories
 
-All documentation is organized into unified categories:
-
-| Category | Topics |
-|----------|--------|
-| Server Setup & Provisioning | Provisioning, Patch Management, Migration, Certbot, Docker, CloudPanel, aaPanel, Swap, File Permissions |
-| Web Server & Performance | Nginx tuning, PHP tuning, Cloudflare Cache, Log management, SSL, DNS |
-| Database | MySQL/MariaDB/PostgreSQL, Migrations, Redis, Memcached |
-| Monitoring & Benchmarking | Prometheus/Grafana, Netdata, Server benchmarking |
-| Docker | Maintenance, Compose, Staging environments |
-| DevOps Tools & Automation | Git, CI/CD, WP-CLI, SSH, Cron, Ansible |
-| Security | Hardening, Firewall, Malware, WAF, Incident Postmortem |
-| Frontend & Deployment | WordPress, Laravel, Python/WSGI, Next.js, Node.js, Static sites |
-| Backup & Disaster Recovery | Backup procedures, DR planning |
-
+| Category | Contents |
+|----------|----------|
+| **Server Setup & Provisioning** | Initial server hardening, control panels (CloudPanel, aaPanel), Docker Engine, Certbot/SSL, swap config, file permissions, patch management, server migrations |
+| **Web Server & Performance** | Nginx tuning, PHP-FPM optimization, Cloudflare caching, log management, SSL troubleshooting, DNS management |
+| **Database** | MySQL/MariaDB/PostgreSQL administration, database migrations, Redis and Memcached setup |
+| **Monitoring & Benchmarking** | Prometheus + Grafana stack, Netdata real-time monitoring, server benchmarking tools |
+| **Docker** | Container maintenance, Docker Compose patterns, staging environment replication |
+| **DevOps Tools & Automation** | Git workflow, CI/CD pipelines (single + multi-environment), release management, WP-CLI, SSH key management, tunneling, cron jobs, Ansible playbooks |
+| **Security** | Hardening checklists, WordPress firewall rules, malware removal, .htaccess hardening, ModSecurity WAF, AWS WAF, incident postmortems |
+| **Frontend & Deployment** | WordPress (Docker/Nginx/MariaDB), Laravel, Python/WSGI, Next.js + headless WordPress, Node.js/PM2, static site deployment |
+| **Backup & Disaster Recovery** | Backup schedules and retention, DR planning with RTO/RPO |
 
 ## Quick Start
 
 ### Prerequisites
+
 - Python 3.12+
 - pip
 
-### Run locally
+### Serve locally
 
 ```bash
-# Install everything you need
 pip install mkdocs mkdocs-rtd-dropdown mkdocs-print-site-plugin \
   mkdocs-git-revision-date-localized-plugin mkdocs-redirects \
   mkdocs-minify-plugin mkdocs-glightbox mkdocs-section-index \
   mkdocs-table-reader-plugin
 
-# Start editing — hot-reloads on file changes
 mkdocs serve
 ```
 
-Open `http://localhost:8000` in your browser.
+Open [http://localhost:8000](http://localhost:8000) in your browser. The site auto-reloads on file changes.
 
-### Build the static site
+### Build static site
 
 ```bash
 mkdocs build --strict
 ```
 
-Output goes to the `site/` directory, ready for deployment.
+Output goes to the `site/` directory.
 
 ## Project Structure
 
 ```
 .
-├── docs/                    # Markdown source files
-│   ├── index.md             # Home page
-│   ├── sops/                # Operations documentation (merged into categories)
-│   ├── guides/              # Step-by-step guides
-│   ├── img/                 # Images and assets
-│   ├── css/                 # Custom styles (task lists, copy button)
-│   └── js/                  # Custom JavaScript (code copy button)
-├── logo/                    # Project logo
-├── .github/workflows/       # GitHub Actions CI/CD
-├── mkdocs.yml               # MkDocs configuration
-└── wrangler.toml             # Cloudflare Pages configuration
+├── docs/
+│   ├── index.md              # Home page
+│   ├── guides/               # Step-by-step guides and references
+│   └── sops/                 # Operations documentation and runbooks
+├── logo/                     # Source logo assets
+├── mkdocs.yml                # MkDocs configuration
+├── wrangler.toml             # Cloudflare Pages configuration
+└── .github/workflows/        # CI/CD pipelines
 ```
 
-## Plugins
+## Features
 
-| Plugin | What it adds |
-|--------|-------------|
-| [git-revision-date-localized](https://github.com/timvink/mkdocs-git-revision-date-localized) | Shows when each page was last updated and created |
-| [redirects](https://github.com/datarobot/mkdocs-redirects) | Handles URL changes when pages are moved |
-| [glightbox](https://github.com/blueswen/mkdocs-glightbox) | Opens screenshots and diagrams in a lightbox |
-| [section-index](https://github.com/oprypin/mkdocs-section-index) | Makes nav section headings clickable |
-| [table-reader](https://github.com/neilisaac/mkdocs-table-reader) | Reads CSV/JSON files as Markdown tables |
-| [minify](https://github.com/byrnereese/mkdocs-minify-plugin) | Minifies HTML/JS/CSS for faster loading |
-| [print-site](https://github.com/timvink/mkdocs-print-site-plugin) | Generates a printable version of the entire site |
-
-## Deployment
-
-Pushes to `main` trigger a GitHub Actions workflow that builds the site and deploys it to Cloudflare Pages.
+- **Topic-based navigation** — All documentation is organized by subject, not document type, making it easy to find what you need.
+- **Last-updated dates** — Every page shows when it was last revised.
+- **Image lightbox** — Screenshots and diagrams open in a lightbox for closer inspection.
+- **Print-ready** — A single-page printable version is available.
+- **One-click code copy** — Code blocks include a copy button.
+- **Search** — Full-text search across all documentation.
+- **Strict builds** — `mkdocs build --strict` catches broken links and warnings before deployment.
 
 ## Technology
 
-- [MkDocs](https://www.mkdocs.org/) — Static site generator
-- [mkdocs-rtd-dropdown](https://github.com/cjsheets/mkdocs-rtd-dropdown) — ReadTheDocs theme with dropdown navigation
-- [Cloudflare Pages](https://pages.cloudflare.com/) — Hosting and CDN
-- [GitHub Actions](https://github.com/features/actions) — CI/CD automation
+| Layer | Technology |
+|-------|------------|
+| Site generator | [MkDocs](https://www.mkdocs.org/) 1.6 |
+| Theme | [ReadTheDocs](https://github.com/cjsheets/mkdocs-rtd-dropdown) (dropdown navigation) |
+| Plugins | git-revision-date-localized, redirects, glightbox, section-index, table-reader, minify, print-site, search |
+| Hosting | [Cloudflare Pages](https://pages.cloudflare.com/) |
+| CI/CD | [GitHub Actions](https://github.com/features/actions) |
+
+## Deployment
+
+Pushes to the `main` branch trigger a GitHub Actions workflow that builds the site and deploys it to Cloudflare Pages.
+
+> The live site is available at [wl-devops-docs.pages.dev](https://wl-devops-docs.pages.dev).
+>
+> The site is not indexed by search engines (robots.txt disallows all crawling).
