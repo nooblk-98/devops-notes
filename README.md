@@ -1,9 +1,9 @@
 <div align="center">
   <img src="docs/img/logo.webp" alt="DevOps Docs" width="96" />
 
-  # DevOps SOP Documentation
+  # DevOps Reference Documentation
 
-  Standard Operating Procedures and guides for DevOps operations.
+  A global reference for DevOps engineers — SOPs, runbooks, and practical guides.
 
   [![MkDocs](https://img.shields.io/badge/MkDocs-1.6-06c6a6?style=flat-square)](https://www.mkdocs.org/)
   [![License](https://img.shields.io/badge/License-Proprietary-red?style=flat-square)](LICENSE)
@@ -14,7 +14,7 @@
 
 ## Overview
 
-This repository contains runbooks, standard operating procedures, and practical guides for day-to-day DevOps operations — from server provisioning and WordPress deployment to incident response and disaster recovery.
+A comprehensive open reference for DevOps engineers worldwide. Contains runbooks, standard operating procedures, and practical guides covering the full DevOps lifecycle — from server provisioning and CI/CD to monitoring, security, and incident response.
 
 The site is built with [MkDocs](https://www.mkdocs.org/), uses the [ReadTheDocs](https://github.com/cjsheets/mkdocs-rtd-dropdown) theme, and is published on [Cloudflare Pages](https://pages.cloudflare.com/). Every page shows its last revision date, code blocks have one-click copy, and images open in a lightbox.
 
@@ -25,23 +25,23 @@ The site is built with [MkDocs](https://www.mkdocs.org/), uses the [ReadTheDocs]
 | Area | SOPs |
 |------|------|
 | Infrastructure | Backup & Recovery, Monitoring, DNS, Patch Management, Disaster Recovery |
-| Development | Git Workflow, CI/CD Pipeline, CI/CD Multi-Environment, Release Management |
+| CI/CD & Development | Git Workflow, CI/CD Pipeline, CI/CD Multi-Environment, Release Management |
 | Application Deployment | WordPress, Domain Change, Laravel, Python/WSGI |
-| Incidents | Incident Postmortem |
-| Migration | Server Migration |
+| Operations | Server Migration, Incident Postmortem |
 
-**Guides** — Hands-on guides covering everything from onboarding and tool installation to advanced configurations:
+**Guides** — Hands-on guides organized by category:
 
-- **Setup**: Onboarding, Certbot, Docker, CloudPanel, aaPanel, Server Provisioning
-- **Web Server**: Nginx tuning, PHP tuning, Log management, SSL troubleshooting
-- **Database**: MySQL/MariaDB/PostgreSQL management, Redis, Memcached, Migrations
-- **Monitoring**: Prometheus/Grafana, Netdata, Server benchmarking
-- **Docker**: Maintenance, Compose, Staging environments
-- **DevOps Tools**: WP-CLI, SSH keys, Tunneling, Cron, Ansible
-- **Frontend/Backend**: Next.js + WordPress headless, Static sites, Node.js/PM2
-- **Security**: Firewall rules, Hardening, Malware removal, WAF/ModSecurity, AWS WAF
-
-**HR** — Internal references: DevOps KPI scoring, bonus and increment guidelines for FY 2026/27.
+| Category | Topics |
+|----------|--------|
+| Server Setup & Provisioning | Provisioning, Certbot, Docker, CloudPanel, aaPanel, Swap, File Permissions |
+| Web Server & Performance | Nginx tuning, PHP tuning, Cloudflare Cache, Log management, SSL |
+| Database | MySQL/MariaDB/PostgreSQL, Migrations, Redis, Memcached |
+| Monitoring & Benchmarking | Prometheus/Grafana, Netdata, Server benchmarking |
+| Docker | Maintenance, Compose, Staging environments |
+| DevOps Tools & Automation | WP-CLI, SSH keys, Tunneling, Cron, Ansible |
+| Security | Hardening, Firewall, Malware removal, WAF/ModSecurity, AWS WAF |
+| Frontend & Deployment | Next.js + WordPress, Node.js/PM2, Static sites |
+| General | Onboarding, Troubleshooting |
 
 ## Quick Start
 
@@ -80,7 +80,6 @@ Output goes to the `site/` directory, ready for deployment.
 │   ├── index.md             # Home page
 │   ├── sops/                # Standard Operating Procedures
 │   ├── guides/              # Step-by-step guides
-│   ├── hr/                  # HR documentation
 │   ├── img/                 # Images and assets
 │   ├── css/                 # Custom styles (task lists, copy button)
 │   └── js/                  # Custom JavaScript (code copy button)

@@ -11,7 +11,7 @@ This section contains all Standard Operating Procedures (SOPs) for DevOps operat
 - [Patch Management SOP](patch-management.md) — Scheduled updates, kernel upgrades, reboot cycles
 - [Disaster Recovery SOP](disaster-recovery.md) — DR plan, RTO/RPO, failover drills
 
-### Development
+### CI/CD & Development
 - [Git Workflow SOP](git-workflow.md) — Branching, commits, code review process
 - [CI/CD Pipeline SOP](cicd-pipeline.md) — Automated testing and deployment pipelines
 - [CI/CD Multi-Environment SOP](cicd-multi-env.md) — Dev/staging/prod deployment strategy
@@ -23,11 +23,9 @@ This section contains all Standard Operating Procedures (SOPs) for DevOps operat
 - [Laravel Deployment SOP](laravel-deployment.md) — Laravel with Docker, Nginx, and MariaDB
 - [Python/WSGI Deployment SOP](python-wsgi-deployment.md) — Django/Flask with Gunicorn and Docker
 
-### Incidents
-- [Incident Postmortem SOP](incident-postmortem.md) — Postmortem template and process
-
-### Migration
+### Operations
 - [Server Migration SOP](migration.md) — Full server and site migration process
+- [Incident Postmortem SOP](incident-postmortem.md) — Postmortem template and process
 
 ## SOP Template
 
