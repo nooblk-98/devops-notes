@@ -40,7 +40,7 @@ brew install kind k9s istioctl velero
 
 ```bash
 mkdir ~/devops && cd ~/devops
-git clone https://github.com/example/wl-devops-docs.git
+git clone https://github.com/example/devops-docs.git
 git clone https://github.com/example/infrastructure.git
 git clone https://github.com/example/deployment.git
 ```

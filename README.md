@@ -1,12 +1,11 @@
 <div align="center">
-  <img src="docs/img/logo.webp" alt="WEBLANKAN DevOps Docs" width="96" />
+  <img src="docs/img/logo.webp" alt="DevOps Docs" width="96" />
 
   # DevOps SOP Documentation
 
-  Standard Operating Procedures and guides for WEBLANKAN DevOps operations.
+  Standard Operating Procedures and guides for DevOps operations.
 
   [![MkDocs](https://img.shields.io/badge/MkDocs-1.6-06c6a6?style=flat-square)](https://www.mkdocs.org/)
-  [![Build](https://img.shields.io/github/actions/workflow/status/weblankan-rnd/wl-devops-docs/deploy.yml?style=flat-square&label=Deploy&logo=github)](https://github.com/weblankan-rnd/wl-devops-docs/actions)
   [![License](https://img.shields.io/badge/License-Proprietary-red?style=flat-square)](LICENSE)
 
   [Overview](#overview) • [Quick Start](#quick-start) • [Project Structure](#project-structure) • [Deployment](#deployment)
@@ -15,7 +14,7 @@
 
 ## Overview
 
-This repository is the single source of truth for WEBLANKAN's DevOps team. It contains runbooks, standard operating procedures, and practical guides for day-to-day operations — from server provisioning and WordPress deployment to incident response and disaster recovery.
+This repository contains runbooks, standard operating procedures, and practical guides for day-to-day DevOps operations — from server provisioning and WordPress deployment to incident response and disaster recovery.
 
 The site is built with [MkDocs](https://www.mkdocs.org/), uses the [ReadTheDocs](https://github.com/cjsheets/mkdocs-rtd-dropdown) theme, and is published on [Cloudflare Pages](https://pages.cloudflare.com/). Every page shows its last revision date, code blocks have one-click copy, and images open in a lightbox.
 
@@ -105,12 +104,7 @@ Output goes to the `site/` directory, ready for deployment.
 
 ## Deployment
 
-Pushes to `main` trigger a [GitHub Actions](https://github.com/weblankan-rnd/wl-devops-docs/actions) workflow that builds the site and deploys it to Cloudflare Pages.
-
-> [!NOTE]
-> The live site is available at [wl-devops-docs.pages.dev](https://wl-devops-docs.pages.dev).
->
-> The site is password-protected. Use password: **devops2026**
+Pushes to `main` trigger a GitHub Actions workflow that builds the site and deploys it to Cloudflare Pages.
 
 ## Technology
 

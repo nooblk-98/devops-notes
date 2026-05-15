@@ -1,7 +1,6 @@
 site_name: DevOps SOP Documentation
 site_description: Standard Operating Procedures for DevOps operations
 site_url: https://wl-devops-docs.pages.dev
-repo_url: https://github.com/weblankan-rnd/wl-devops-docs
 edit_uri: edit/main/docs/
 
 theme:
@@ -25,9 +24,6 @@ plugins:
   - glightbox
   - section-index
   - table-reader
-  - encryptcontent:
-      global_password: devops2026
-      threshold_warning_min_entropy: 1
   - minify:
       minify_html: true
       minify_js: true
@@ -112,6 +108,6 @@ nav:
       - Bonus & Increment FY 2026/27: hr/bonus-increment-fy2026.md
 
 
-copyright: Copyright &copy; 2026 WEBLANKAN
+copyright: Copyright &copy; 2026
 
 strict: true

@@ -21,7 +21,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install --no-cache-dir mkdocs mkdocs-rtd-dropdown mkdocs-print-site-plugin mkdocs-git-revision-date-localized-plugin mkdocs-redirects mkdocs-minify-plugin mkdocs-glightbox mkdocs-section-index mkdocs-table-reader-plugin mkdocs-encryptcontent-plugin
+          pip install --no-cache-dir mkdocs mkdocs-rtd-dropdown mkdocs-print-site-plugin mkdocs-git-revision-date-localized-plugin mkdocs-redirects mkdocs-minify-plugin mkdocs-glightbox mkdocs-section-index mkdocs-table-reader-plugin
 
       - name: Build site
         run: mkdocs build --strict
