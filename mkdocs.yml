@@ -1,6 +1,6 @@
 site_name: DevOps Reference
 site_description: A comprehensive knowledge base for DevOps engineers — operations, runbooks, and practical guides
-site_url: https://wl-devops-docs.pages.dev
+site_url: https://devops-notes-b2c.pages.dev
 
 theme:
   name: readthedocs

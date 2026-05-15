@@ -99,6 +99,6 @@ Output goes to the `site/` directory.
 
 Pushes to the `main` branch trigger a GitHub Actions workflow that builds the site and deploys it to Cloudflare Pages.
 
-> The live site is available at [wl-devops-docs.pages.dev](https://wl-devops-docs.pages.dev).
+> The live site is available at [devops-notes-b2c.pages.dev](https://devops-notes-b2c.pages.dev).
 >
 > The site is not indexed by search engines (robots.txt disallows all crawling).
