@@ -24,5 +24,5 @@ A comprehensive knowledge base for DevOps engineers covering infrastructure, CI/
 | Security | Hardening, firewalls, malware, WAF |
 | Frontend & Deployment | WordPress, Laravel, Next.js, static sites |
 | Backup & Disaster Recovery | Backup procedures, DR planning |
-| General | Onboarding, troubleshooting |
+
 

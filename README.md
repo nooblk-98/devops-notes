@@ -33,7 +33,7 @@ All documentation is organized into unified categories:
 | Security | Hardening, Firewall, Malware, WAF, Incident Postmortem |
 | Frontend & Deployment | WordPress, Laravel, Python/WSGI, Next.js, Node.js, Static sites |
 | Backup & Disaster Recovery | Backup procedures, DR planning |
-| General | Onboarding, Troubleshooting |
+
 
 ## Quick Start
 

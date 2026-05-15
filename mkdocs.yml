@@ -104,11 +104,7 @@ nav:
   - Backup & Disaster Recovery:
       - Backup & Recovery: sops/backup.md
       - Disaster Recovery: sops/disaster-recovery.md
-  - General:
-      - Onboarding: guides/onboarding.md
-      - Troubleshooting: guides/troubleshooting.md
   - All Docs: guides/index.md
-  - Tags: tags.md
 
 copyright: Copyright &copy; 2026
 

@@ -68,6 +68,4 @@
 - [Backup & Recovery](../sops/backup.md) — Data protection and disaster recovery
 - [Disaster Recovery](../sops/disaster-recovery.md) — DR plan, RTO/RPO, failover drills
 
-## General
-- [Onboarding Guide](onboarding.md) — Setting up a new team member's environment
-- [Troubleshooting Guide](troubleshooting.md) — Common issues and resolutions
+
