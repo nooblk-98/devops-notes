@@ -1,0 +1,66 @@
+.task-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.task-list-item {
+  margin-bottom: 0.15em;
+  line-height: 1.6;
+}
+
+.task-list-control {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+
+.task-list-item input[type="checkbox"] {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin: 0 0.3em 0 0;
+  padding: 0;
+  cursor: default;
+  accent-color: #2980b9;
+  opacity: 1 !important;
+  position: relative;
+  top: 0.125em;
+}
+
+.task-list-indicator {
+  display: none !important;
+}
+
+.highlight {
+  position: relative;
+}
+
+.highlight .copy-btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  padding: 4px 10px;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #555;
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.highlight:hover .copy-btn {
+  opacity: 1;
+}
+
+.highlight .copy-btn:hover {
+  background: #e8e8e8;
+}
+
+.highlight .copy-btn.copied {
+  color: #fff;
+  background: #2980b9;
+  border-color: #2980b9;
+}

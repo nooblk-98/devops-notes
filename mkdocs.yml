@@ -1,0 +1,117 @@
+site_name: DevOps SOP Documentation
+site_description: Standard Operating Procedures for DevOps operations
+site_url: https://wl-devops-docs.pages.dev
+repo_url: https://github.com/weblankan-rnd/wl-devops-docs
+edit_uri: edit/main/docs/
+
+theme:
+  name: readthedocs
+  locale: en
+  logo: img/logo.webp
+  favicon: img/logo.webp
+
+extra_css:
+  - css/extra.css
+
+extra_javascript:
+  - js/extra.js
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - redirects:
+      redirect_maps: {}
+  - glightbox
+  - section-index
+  - table-reader
+  - encryptcontent:
+      global_password: devops2026
+      threshold_warning_min_entropy: 1
+  - minify:
+      minify_html: true
+      minify_js: true
+      minify_css: true
+  - print-site
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.emoji
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - footnotes
+
+nav:
+  - Home: index.md
+  - Standard Operating Procedures:
+      - Overview: sops/index.md
+      - Backup & Recovery SOP: sops/backup.md
+      - Monitoring SOP: sops/monitoring.md
+      - WordPress Deployment SOP: sops/wordpress-deployment.md
+      - WordPress Domain Change SOP: sops/wordpress-change-url.md
+      - Laravel Deployment SOP: sops/laravel-deployment.md
+      - Git Workflow SOP: sops/git-workflow.md
+      - CI/CD Pipeline SOP: sops/cicd-pipeline.md
+      - CI/CD Multi-Environment SOP: sops/cicd-multi-env.md
+      - Python/WSGI Deployment SOP: sops/python-wsgi-deployment.md
+      - Server Migration SOP: sops/migration.md
+      - DNS Management SOP: sops/dns-management.md
+      - Patch Management SOP: sops/patch-management.md
+      - Incident Postmortem SOP: sops/incident-postmortem.md
+      - Release Management SOP: sops/release-management.md
+      - Disaster Recovery SOP: sops/disaster-recovery.md
+  - Guides:
+      - Overview: guides/index.md
+      - Onboarding: guides/onboarding.md
+      - Troubleshooting: guides/troubleshooting.md
+      - Install Certbot & SSL: guides/install-certbot.md
+      - Install Docker & Compose: guides/install-docker.md
+      - Install CloudPanel: guides/install-cloudpanel.md
+      - Install aaPanel: guides/install-aapanel.md
+      - WordPress Firewall Rules: guides/firewall-wordpress.md
+      - Security Practices: guides/security-practices.md
+      - Database Management: guides/database-management.md
+      - Log Management: guides/log-management.md
+      - Server Provisioning: guides/server-provisioning.md
+      - Monitoring Setup: guides/monitoring-setup.md
+      - Docker Maintenance: guides/docker-maintenance.md
+      - PHP Tuning: guides/php-tuning.md
+      - Redis & Memcached: guides/redis-memcached.md
+      - WP-CLI Cheat Sheet: guides/wp-cli-cheatsheet.md
+      - Cloudflare Cache Tuning: guides/cloudflare-cache.md
+      - Nginx Performance Tuning: guides/nginx-performance.md
+      - SSH Key Management: guides/ssh-key-management.md
+      - Swap Configuration: guides/swap-configuration.md
+      - Cron Job Management: guides/cron-management.md
+      - Staging Environment Setup: guides/staging-environment.md
+      - SSL Troubleshooting: guides/ssl-troubleshooting.md
+      - Server Benchmarking: guides/server-benchmarking.md
+      - Malware Removal: guides/malware-removal.md
+      - .htaccess Hardening: guides/htaccess-hardening.md
+      - Next.js + WordPress: guides/nextjs-wordpress.md
+      - Docker Compose Cheat Sheet: guides/docker-compose-cheatsheet.md
+      - Ansible Automation: guides/ansible-automation.md
+      - SSH Tunneling: guides/ssh-tunneling.md
+      - Database Migration: guides/database-migration.md
+      - File Permissions Cheat Sheet: guides/file-permissions.md
+      - Node.js/PM2 Deployment: guides/nodejs-pm2-deployment.md
+      - Static Site Deployment: guides/static-site-deployment.md
+      - Netdata Monitoring: guides/netdata-monitoring.md
+      - WAF / ModSecurity: guides/modsecurity-waf.md
+      - AWS WAF for WordPress: guides/aws-waf-wordpress.md
+
+  - HR:
+      - DevOps KPI Scoring: hr/devops-kpi.md
+      - Bonus & Increment FY 2026/27: hr/bonus-increment-fy2026.md
+
+
+copyright: Copyright &copy; 2026 WEBLANKAN
+
+strict: true
