@@ -73,6 +73,9 @@
 - [Node.js/PM2 Deployment](nodejs-pm2-deployment.md) — Node.js apps with PM2 and Nginx
 - [Static Site Deployment](static-site-deployment.md) — Hugo/11ty build and deploy
 
+## AI
+- [Better AI Skills](better-ai-skills.md) — AI coding skills for development workflows
+
 ## Backup & Disaster Recovery
 - [Backup & Recovery](../sops/backup.md) — Data protection and disaster recovery
 - [Disaster Recovery](../sops/disaster-recovery.md) — DR plan, RTO/RPO, failover drills

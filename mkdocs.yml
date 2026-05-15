@@ -109,6 +109,8 @@ nav:
   - Backup & Disaster Recovery:
       - Backup & Recovery: sops/backup.md
       - Disaster Recovery: sops/disaster-recovery.md
+  - AI:
+      - Better AI Skills: guides/better-ai-skills.md
   - All Docs: guides/index.md
 
 copyright: Copyright &copy; 2026 <a href="https://github.com/nooblk-98">NoobLK</a>
