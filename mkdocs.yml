@@ -80,6 +80,7 @@ nav:
       - Staging Environment Setup: guides/staging-environment.md
   - DevOps Tools & Automation:
       - Git Workflow: sops/git-workflow.md
+      - Auto Release: guides/auto-release.md
       - CI/CD Pipeline: sops/cicd-pipeline.md
       - CI/CD Multi-Environment: sops/cicd-multi-env.md
       - Release Management: sops/release-management.md

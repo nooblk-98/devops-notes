@@ -41,6 +41,7 @@
 
 ## DevOps Tools & Automation
 - [Git Workflow](../sops/git-workflow.md) — Branching, commits, code review process
+- [Auto Release](auto-release.md) — Automatic releases with AI-generated notes
 - [CI/CD Pipeline](../sops/cicd-pipeline.md) — Automated testing and deployment pipelines
 - [CI/CD Multi-Environment](../sops/cicd-multi-env.md) — Dev/staging/prod deployment strategy
 - [Release Management](../sops/release-management.md) — Versioning, changelogs, release notes
