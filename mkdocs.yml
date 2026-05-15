@@ -45,75 +45,69 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Operations:
-      - Overview: sops/index.md
-      - Infrastructure:
-          - Backup & Recovery: sops/backup.md
-          - Monitoring: sops/monitoring.md
-          - DNS Management: sops/dns-management.md
-          - Patch Management: sops/patch-management.md
-          - Disaster Recovery: sops/disaster-recovery.md
-      - CI/CD & Development:
-          - Git Workflow: sops/git-workflow.md
-          - CI/CD Pipeline: sops/cicd-pipeline.md
-          - CI/CD Multi-Environment: sops/cicd-multi-env.md
-          - Release Management: sops/release-management.md
-      - Application Deployment:
-          - WordPress Deployment: sops/wordpress-deployment.md
-          - WordPress Domain Change: sops/wordpress-change-url.md
-          - Laravel Deployment: sops/laravel-deployment.md
-          - Python/WSGI Deployment: sops/python-wsgi-deployment.md
-      - Procedures:
-          - Server Migration: sops/migration.md
-          - Incident Postmortem: sops/incident-postmortem.md
-  - Guides:
-      - Overview: guides/index.md
-      - Server Setup & Provisioning:
-          - Server Provisioning: guides/server-provisioning.md
-          - Install Certbot & SSL: guides/install-certbot.md
-          - Install Docker & Compose: guides/install-docker.md
-          - Install CloudPanel: guides/install-cloudpanel.md
-          - Install aaPanel: guides/install-aapanel.md
-          - Swap Configuration: guides/swap-configuration.md
-          - File Permissions Cheat Sheet: guides/file-permissions.md
-      - Web Server & Performance:
-          - Nginx Performance Tuning: guides/nginx-performance.md
-          - PHP Tuning: guides/php-tuning.md
-          - Cloudflare Cache Tuning: guides/cloudflare-cache.md
-          - Log Management: guides/log-management.md
-          - SSL Troubleshooting: guides/ssl-troubleshooting.md
-      - Database:
-          - Database Management: guides/database-management.md
-          - Database Migration: guides/database-migration.md
-          - Redis & Memcached: guides/redis-memcached.md
-      - Monitoring & Benchmarking:
-          - Monitoring Setup: guides/monitoring-setup.md
-          - Netdata Monitoring: guides/netdata-monitoring.md
-          - Server Benchmarking: guides/server-benchmarking.md
-      - Docker:
-          - Docker Maintenance: guides/docker-maintenance.md
-          - Docker Compose Cheat Sheet: guides/docker-compose-cheatsheet.md
-          - Staging Environment Setup: guides/staging-environment.md
-      - DevOps Tools & Automation:
-          - WP-CLI Cheat Sheet: guides/wp-cli-cheatsheet.md
-          - SSH Key Management: guides/ssh-key-management.md
-          - SSH Tunneling: guides/ssh-tunneling.md
-          - Cron Job Management: guides/cron-management.md
-          - Ansible Automation: guides/ansible-automation.md
-      - Security:
-          - Security Practices: guides/security-practices.md
-          - WordPress Firewall Rules: guides/firewall-wordpress.md
-          - Malware Removal: guides/malware-removal.md
-          - .htaccess Hardening: guides/htaccess-hardening.md
-          - WAF / ModSecurity: guides/modsecurity-waf.md
-          - AWS WAF for WordPress: guides/aws-waf-wordpress.md
-      - Frontend & Deployment:
-          - Next.js + WordPress: guides/nextjs-wordpress.md
-          - Node.js/PM2 Deployment: guides/nodejs-pm2-deployment.md
-          - Static Site Deployment: guides/static-site-deployment.md
-      - General:
-          - Onboarding: guides/onboarding.md
-          - Troubleshooting: guides/troubleshooting.md
+  - Server Setup & Provisioning:
+      - Server Provisioning: guides/server-provisioning.md
+      - Patch Management: sops/patch-management.md
+      - Server Migration: sops/migration.md
+      - Install Certbot & SSL: guides/install-certbot.md
+      - Install Docker & Compose: guides/install-docker.md
+      - Install CloudPanel: guides/install-cloudpanel.md
+      - Install aaPanel: guides/install-aapanel.md
+      - Swap Configuration: guides/swap-configuration.md
+      - File Permissions Cheat Sheet: guides/file-permissions.md
+  - Web Server & Performance:
+      - Nginx Performance Tuning: guides/nginx-performance.md
+      - PHP Tuning: guides/php-tuning.md
+      - Cloudflare Cache Tuning: guides/cloudflare-cache.md
+      - Log Management: guides/log-management.md
+      - SSL Troubleshooting: guides/ssl-troubleshooting.md
+      - DNS Management: sops/dns-management.md
+  - Database:
+      - Database Management: guides/database-management.md
+      - Database Migration: guides/database-migration.md
+      - Redis & Memcached: guides/redis-memcached.md
+  - Monitoring & Benchmarking:
+      - Monitoring: sops/monitoring.md
+      - Monitoring Setup: guides/monitoring-setup.md
+      - Netdata Monitoring: guides/netdata-monitoring.md
+      - Server Benchmarking: guides/server-benchmarking.md
+  - Docker:
+      - Docker Maintenance: guides/docker-maintenance.md
+      - Docker Compose Cheat Sheet: guides/docker-compose-cheatsheet.md
+      - Staging Environment Setup: guides/staging-environment.md
+  - DevOps Tools & Automation:
+      - Git Workflow: sops/git-workflow.md
+      - CI/CD Pipeline: sops/cicd-pipeline.md
+      - CI/CD Multi-Environment: sops/cicd-multi-env.md
+      - Release Management: sops/release-management.md
+      - WP-CLI Cheat Sheet: guides/wp-cli-cheatsheet.md
+      - SSH Key Management: guides/ssh-key-management.md
+      - SSH Tunneling: guides/ssh-tunneling.md
+      - Cron Job Management: guides/cron-management.md
+      - Ansible Automation: guides/ansible-automation.md
+  - Security:
+      - Security Practices: guides/security-practices.md
+      - WordPress Firewall Rules: guides/firewall-wordpress.md
+      - Malware Removal: guides/malware-removal.md
+      - .htaccess Hardening: guides/htaccess-hardening.md
+      - WAF / ModSecurity: guides/modsecurity-waf.md
+      - AWS WAF for WordPress: guides/aws-waf-wordpress.md
+      - Incident Postmortem: sops/incident-postmortem.md
+  - Frontend & Deployment:
+      - WordPress Deployment: sops/wordpress-deployment.md
+      - WordPress Domain Change: sops/wordpress-change-url.md
+      - Laravel Deployment: sops/laravel-deployment.md
+      - Python/WSGI Deployment: sops/python-wsgi-deployment.md
+      - Next.js + WordPress: guides/nextjs-wordpress.md
+      - Node.js/PM2 Deployment: guides/nodejs-pm2-deployment.md
+      - Static Site Deployment: guides/static-site-deployment.md
+  - Backup & Disaster Recovery:
+      - Backup & Recovery: sops/backup.md
+      - Disaster Recovery: sops/disaster-recovery.md
+  - General:
+      - Onboarding: guides/onboarding.md
+      - Troubleshooting: guides/troubleshooting.md
+  - All Docs: guides/index.md
   - Tags: tags.md
 
 copyright: Copyright &copy; 2026

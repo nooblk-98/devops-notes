@@ -20,27 +20,19 @@ The site is built with [MkDocs](https://www.mkdocs.org/), uses the [ReadTheDocs]
 
 ### What you'll find here
 
-**Operations** — Reference documentation for common infrastructure tasks and procedures. Each document covers purpose, prerequisites, step-by-step instructions, rollback steps, and verification checks.
-
-| Area | Documents |
-|------|-----------|
-| Infrastructure | Backup & Recovery, Monitoring, DNS, Patch Management, Disaster Recovery |
-| CI/CD & Development | Git Workflow, CI/CD Pipeline, CI/CD Multi-Environment, Release Management |
-| Application Deployment | WordPress, Domain Change, Laravel, Python/WSGI |
-| Procedures | Server Migration, Incident Postmortem |
-
-**Guides** — Hands-on guides organized by category:
+All documentation is organized into unified categories:
 
 | Category | Topics |
 |----------|--------|
-| Server Setup & Provisioning | Provisioning, Certbot, Docker, CloudPanel, aaPanel, Swap, File Permissions |
-| Web Server & Performance | Nginx tuning, PHP tuning, Cloudflare Cache, Log management, SSL |
+| Server Setup & Provisioning | Provisioning, Patch Management, Migration, Certbot, Docker, CloudPanel, aaPanel, Swap, File Permissions |
+| Web Server & Performance | Nginx tuning, PHP tuning, Cloudflare Cache, Log management, SSL, DNS |
 | Database | MySQL/MariaDB/PostgreSQL, Migrations, Redis, Memcached |
 | Monitoring & Benchmarking | Prometheus/Grafana, Netdata, Server benchmarking |
 | Docker | Maintenance, Compose, Staging environments |
-| DevOps Tools & Automation | WP-CLI, SSH keys, Tunneling, Cron, Ansible |
-| Security | Hardening, Firewall, Malware removal, WAF/ModSecurity, AWS WAF |
-| Frontend & Deployment | Next.js + WordPress, Node.js/PM2, Static sites |
+| DevOps Tools & Automation | Git, CI/CD, WP-CLI, SSH, Cron, Ansible |
+| Security | Hardening, Firewall, Malware, WAF, Incident Postmortem |
+| Frontend & Deployment | WordPress, Laravel, Python/WSGI, Next.js, Node.js, Static sites |
+| Backup & Disaster Recovery | Backup procedures, DR planning |
 | General | Onboarding, Troubleshooting |
 
 ## Quick Start
@@ -78,7 +70,7 @@ Output goes to the `site/` directory, ready for deployment.
 .
 ├── docs/                    # Markdown source files
 │   ├── index.md             # Home page
-│   ├── sops/                # Operations documentation
+│   ├── sops/                # Operations documentation (merged into categories)
 │   ├── guides/              # Step-by-step guides
 │   ├── img/                 # Images and assets
 │   ├── css/                 # Custom styles (task lists, copy button)

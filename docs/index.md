@@ -1,20 +1,28 @@
 # DevOps Reference Documentation
 
-A comprehensive collection of Standard Operating Procedures, runbooks, and practical guides for DevOps engineers. Covers infrastructure, CI/CD, monitoring, security, deployment, and day-to-day operations across the full DevOps lifecycle.
+A comprehensive knowledge base for DevOps engineers covering infrastructure, CI/CD, monitoring, security, deployment, and day-to-day operations across the full DevOps lifecycle.
 
 ## Quick Links
 
-- [Backup & Recovery](sops/backup.md) — Backup schedules, retention policies, and recovery procedures.
+- [Server Provisioning](guides/server-provisioning.md) — Bare-metal and cloud server setup.
 - [CI/CD Pipeline](sops/cicd-pipeline.md) — Continuous integration and deployment pipeline setup.
 - [Monitoring](sops/monitoring.md) — Monitoring stack configuration, alert thresholds, and dashboard management.
-- [Server Provisioning](guides/server-provisioning.md) — Bare-metal and cloud server setup.
+- [Backup & Recovery](sops/backup.md) — Backup schedules, retention policies, and recovery procedures.
 - [Docker Maintenance](guides/docker-maintenance.md) — Container management and cleanup.
 - [Security Practices](guides/security-practices.md) — Hardening and security best practices.
 
 ## Documentation Structure
 
-| Section | Description |
-|---------|-------------|
-| **Operations** | Reference documentation for common operations and procedures |
-| **Guides** | Step-by-step practical guides and tutorials |
+| Category | Description |
+|----------|-------------|
+| Server Setup & Provisioning | Server initialization, control panels, system config |
+| Web Server & Performance | Nginx, PHP, caching, DNS, SSL |
+| Database | MySQL, MariaDB, PostgreSQL, Redis, Memcached |
+| Monitoring & Benchmarking | Prometheus, Grafana, Netdata, benchmarking |
+| Docker | Container maintenance, Compose, staging |
+| DevOps Tools & Automation | Git, CI/CD, WP-CLI, SSH, Ansible |
+| Security | Hardening, firewalls, malware, WAF |
+| Frontend & Deployment | WordPress, Laravel, Next.js, static sites |
+| Backup & Disaster Recovery | Backup procedures, DR planning |
+| General | Onboarding, troubleshooting |
 
