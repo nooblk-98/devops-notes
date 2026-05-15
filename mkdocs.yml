@@ -83,6 +83,7 @@ nav:
       - CI/CD Pipeline: sops/cicd-pipeline.md
       - CI/CD Multi-Environment: sops/cicd-multi-env.md
       - Release Management: sops/release-management.md
+      - Cloudflare Deploy Pipeline: sops/cloudflare-deploy.md
   - DevOps Tools & Automation:
       - WP-CLI Cheat Sheet: guides/wp-cli-cheatsheet.md
       - SSH Key Management: guides/ssh-key-management.md
