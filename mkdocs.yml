@@ -109,6 +109,6 @@ nav:
       - Disaster Recovery: sops/disaster-recovery.md
   - All Docs: guides/index.md
 
-copyright: Copyright &copy; 2026
+copyright: Copyright &copy; 2026 <a href="https://github.com/nooblk-98">NoobLK</a>
 
 strict: true
