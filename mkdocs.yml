@@ -95,7 +95,7 @@ nav:
       - Incident Postmortem: sops/incident-postmortem.md
   - Frontend & Deployment:
       - WordPress Deployment: sops/wordpress-deployment.md
-      - WordPress Domain Change: sops/wordpress-change-url.md
+      - WordPress Domain Migration: sops/wordpress-domain-migration.md
       - Laravel Deployment: sops/laravel-deployment.md
       - Python/WSGI Deployment: sops/python-wsgi-deployment.md
       - Next.js + WordPress: guides/nextjs-wordpress.md

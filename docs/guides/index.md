@@ -57,7 +57,7 @@
 
 ## Frontend & Deployment
 - [WordPress Deployment](../sops/wordpress-deployment.md) — WordPress with Docker, Nginx, and MariaDB
-- [WordPress Domain Change](../sops/wordpress-change-url.md) — Change WordPress site URL
+- [WordPress Domain Migration](../sops/wordpress-domain-migration.md) — Migrate WordPress to a new domain
 - [Laravel Deployment](../sops/laravel-deployment.md) — Laravel with Docker, Nginx, and MariaDB
 - [Python/WSGI Deployment](../sops/python-wsgi-deployment.md) — Django/Flask with Gunicorn and Docker
 - [Next.js + WordPress](nextjs-wordpress.md) — Next.js frontend with headless WordPress backend
